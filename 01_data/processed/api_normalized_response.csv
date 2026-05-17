@@ -1,0 +1,12 @@
+transaction_id,transaction_date_ledger,merchant_id_ledger,amount_usd_ledger,status_ledger,payment_method_ledger,transaction_date_gateway,merchant_id_gateway,amount_usd_gateway,status_gateway,payment_method_gateway,reconciliation_status,meta_id,meta_transaction_amount,meta_transaction_currency,meta_transaction_type,meta_timestamp_details_created_at,meta_timestamp_details_updated_at,meta_customer_id,meta_customer_name
+T1001,2023-01-01,M001,100.0,completed,credit_card,2023-01-01,M001,100.0,completed,credit_card,Reconciled,A1,100.0,USD,sale,2023-01-01 10:00:00+00:00,2023-01-01 10:05:00+00:00,cust123,Alice
+T1002,2023-01-01,M002,200.5,completed,paypal,2023-01-01,M002,200.5,completed,paypal,Reconciled,A1,100.0,USD,sale,2023-01-01 10:00:00+00:00,2023-01-01 10:05:00+00:00,cust123,Alice
+T1003,2023-01-02,M001,150.0,completed,credit_card,2023-01-02,M001,150.0,completed,credit_card,Reconciled,A1,100.0,USD,sale,2023-01-01 10:00:00+00:00,2023-01-01 10:05:00+00:00,cust123,Alice
+T1004,2023-01-02,M003,300.0,pending,bank_transfer,2023-01-02,M003,300.0,completed,bank_transfer,Status Mismatch,A1,100.0,USD,sale,2023-01-01 10:00:00+00:00,2023-01-01 10:05:00+00:00,cust123,Alice
+T1005,2023-01-03,M002,50.0,completed,credit_card,2023-01-03,M002,50.0,completed,credit_card,Reconciled,A1,100.0,USD,sale,2023-01-01 10:00:00+00:00,2023-01-01 10:05:00+00:00,cust123,Alice
+T1006,2023-01-03,M001,120.0,completed,paypal,2023-01-03,M001,120.0,completed,paypal,Reconciled,A1,100.0,USD,sale,2023-01-01 10:00:00+00:00,2023-01-01 10:05:00+00:00,cust123,Alice
+T1007,2023-01-04,M004,400.0,failed,credit_card,,,,,,Missing in Gateway,A1,100.0,USD,sale,2023-01-01 10:00:00+00:00,2023-01-01 10:05:00+00:00,cust123,Alice
+T1008,2023-01-04,M003,80.0,completed,bank_transfer,2023-01-04,M003,80.0,completed,bank_transfer,Reconciled,A1,100.0,USD,sale,2023-01-01 10:00:00+00:00,2023-01-01 10:05:00+00:00,cust123,Alice
+T1009,2023-01-05,M001,250.0,completed,paypal,2023-01-05,M001,250.0,pending,paypal,Status Mismatch,A1,100.0,USD,sale,2023-01-01 10:00:00+00:00,2023-01-01 10:05:00+00:00,cust123,Alice
+T1010,2023-01-05,M005,75.0,pending,credit_card,,,,,,Missing in Gateway,A1,100.0,USD,sale,2023-01-01 10:00:00+00:00,2023-01-01 10:05:00+00:00,cust123,Alice
+T1011,,,,,,2023-01-06,M006,60.0,completed,credit_card,Missing in Ledger,A1,100.0,USD,sale,2023-01-01 10:00:00+00:00,2023-01-01 10:05:00+00:00,cust123,Alice

@@ -1,0 +1,12 @@
+transaction_id,transaction_date_ledger,merchant_id_ledger,amount_usd_ledger,status_ledger,payment_method_ledger,transaction_date_gateway,merchant_id_gateway,amount_usd_gateway,status_gateway,payment_method_gateway,reconciliation_status,meta_total_ledger_rows,meta_total_gateway_rows,meta_missing_in_gateway_count,meta_missing_in_ledger_count,meta_amount_mismatch_count,meta_status_mismatch_count,meta_reconciliation_issue_count,meta_ledger_total_amount,meta_gateway_total_amount,meta_amount_at_risk
+R001,01-03-2026,M001,1200,success,UPI,01-03-2026,M001,1200,success,UPI,Reconciled,10,9,2,1,2,1,6,23340,20550,15090
+R002,01-03-2026,M002,850,success,Card,01-03-2026,M002,900,success,Card,Amount Mismatch,10,9,2,1,2,1,6,23340,20550,15090
+R003,02-03-2026,M001,500,success,Wallet,02-03-2026,M001,500,success,Wallet,Reconciled,10,9,2,1,2,1,6,23340,20550,15090
+R004,02-03-2026,M003,2100,success,Card,,,,,,Missing in Gateway,10,9,2,1,2,1,6,23340,20550,15090
+R005,03-03-2026,M004,7200,success,Card,03-03-2026,M004,7200,failed,Card,Status Mismatch,10,9,2,1,2,1,6,23340,20550,15090
+R006,03-03-2026,M002,950,success,UPI,03-03-2026,M002,950,success,UPI,Reconciled,10,9,2,1,2,1,6,23340,20550,15090
+R007,04-03-2026,M005,3300,failed,NetBanking,04-03-2026,M005,3300,failed,NetBanking,Reconciled,10,9,2,1,2,1,6,23340,20550,15090
+R008,04-03-2026,M001,640,success,Card,04-03-2026,M001,600,success,Card,Amount Mismatch,10,9,2,1,2,1,6,23340,20550,15090
+R009,05-03-2026,M002,4100,success,Card,05-03-2026,M002,4100,success,Card,Reconciled,10,9,2,1,2,1,6,23340,20550,15090
+R010,05-03-2026,M004,2500,success,Wallet,,,,,,Missing in Gateway,10,9,2,1,2,1,6,23340,20550,15090
+R011,,,,,,05-03-2026,M003,1800,success,Card,Missing in Ledger,10,9,2,1,2,1,6,23340,20550,15090

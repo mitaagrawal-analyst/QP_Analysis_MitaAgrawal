@@ -1,0 +1,31 @@
+transaction_id,transaction_date,Merchant_Name,Amt_USD,Status,Risk_Score,Gateway_Region,User_Id,User_Region,Payment_Method,High_value_flag,High _Risk_Flag
+T001,01-03-2026,Alpha Mart,4998,captured,62,APAC,U001,India,UPI,0,0
+T002,01-03-2026,Alpha Mart,2499,captured,55,APAC,U002,India,Card,0,0
+T003,01-03-2026,Beta Stores,6069,captured,71,APAC,U003,India,NetBanking,1,1
+T004,02-03-2026,Beta Stores,1920,failed e05 timeout,68,APAC,U004,Italy,Card,0,0
+T005,02-03-2026,Alpha Mart,4680,captured,58,APAC,U001,India,UPI,0,0
+T006,02-03-2026,Beta Stores,3300,captured,64,APAC,U005,India,Wallet,0,0
+T007,02-03-2026,Alpha Mart,5400,chargeback,83,APAC,U006,India,Card,1,1
+T008,03-03-2026,Beta Stores,4114,captured,59,APAC,U007,Singapore,UPI,0,0
+T009,03-03-2026,Alpha Mart,1512.5,captured,46,APAC,U002,India,Wallet,0,0
+T010,03-03-2026,Beta Stores,7381,captured,77,APAC,U003,India,Card,1,1
+T011,03-03-2026,Alpha Mart,2359.5,failed e05 timeout,NULL,APAC,U008,India,UPI,0,0
+T012,04-03-2026,Beta Stores,3000,captured,61,APAC,U009,USA,Card,0,0
+T013,04-03-2026,Alpha Mart,3720,captured,54,APAC,U010,USA,UPI,0,0
+T014,04-03-2026,Beta Stores,5640,captured,73,APAC,U001,India,NetBanking,1,1
+T015,04-03-2026,Alpha Mart,1560,captured,52,APAC,U002,India,Card,0,0
+T016,05-03-2026,Beta Stores,2596,failed e05 timeout,69,APAC,U008,India,Card,0,0
+T017,05-03-2026,Beta Stores,2124,failed e05 timeout,72,APAC,U008,India,Card,0,1
+T018,05-03-2026,Beta Stores,1711,chargeback,86,APAC,U008,India,UPI,0,1
+T019,05-03-2026,Alpha Mart,3068,failed e05 timeout,67,APAC,U008,India,Wallet,0,0
+T020,05-03-2026,Alpha Mart,6136,captured,75,APAC,U005,India,UPI,1,1
+T021,06-03-2026,Beta Stores,3927,captured,63,APAC,U006,India,Card,0,0
+T022,06-03-2026,Alpha Mart,4879,captured,60,APAC,U007,Singapore,UPI,0,0
+T023,01-03-2026,City Pharma,5616,captured,42,EU,U003,India,Card,0,0
+T024,02-03-2026,Eco Home,6649,chargeback,65,EU,U004,Italy,Card,1,1
+T025,03-03-2026,City Pharma,3024,captured,38,EU,U005,India,Wallet,0,0
+T026,05-03-2026,Eco Home,3597,failed e05 timeout,44,EU,U006,India,NetBanking,0,0
+T027,01-03-2026,Delta Travels,7200,captured,49,US,U007,Singapore,Card,1,0
+T028,02-03-2026,Delta Travels,3100,captured,41,US,U008,India,Card,0,0
+T029,04-03-2026,Delta Travels,2500,chargeback,58,US,U009,USA,Wallet,0,1
+T030,06-03-2026,Delta Travels,1800,failed e05 timeout,47,US,U010,USA,UPI,0,0

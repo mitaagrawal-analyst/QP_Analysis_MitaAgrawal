@@ -1,0 +1,5 @@
+payment_method,captured_gmv,transaction_count,total transaction count
+Card,34283,8,13
+NetBanking,11709,2,3
+UPI,28527,6,9
+Wallet,7836.5,3,5
